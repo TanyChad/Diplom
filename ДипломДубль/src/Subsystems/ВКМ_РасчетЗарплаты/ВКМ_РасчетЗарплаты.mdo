@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="555032e6-ef0c-4208-aeb1-eefd90954e4d">
+  <name>ВКМ_РасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИконкаНетология</picture>
+  </picture>
+  <content>Catalog.Пользователи</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>Catalog.ВКМ_Графики</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>CommandGroup.ВКМ_Справочники</content>
+  <content>CommandGroup.ВКМ_Документы</content>
+  <content>CommandGroup.ВКМ_Регистры</content>
+  <content>CommandGroup.ВКМ_Прочее</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ДатыОтпусков</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+</mdclass:Subsystem>

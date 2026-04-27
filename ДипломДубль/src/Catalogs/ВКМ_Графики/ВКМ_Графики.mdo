@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f93c262a-f4fe-40b1-b151-b9c57486515b">
+  <producedTypes>
+    <objectType typeId="2e48ddba-b4ef-42ce-8d75-dabaa1fee3fc" valueTypeId="c0e69946-c7d3-43d4-9f79-93b510d53aa6"/>
+    <refType typeId="067d44d5-68c8-409c-9fbb-ed20affb8bee" valueTypeId="a5be7ee7-8d02-4c5f-bb64-9590718d325c"/>
+    <selectionType typeId="bf53ad3e-8c3b-4841-9e3f-2e9af7c9e289" valueTypeId="91b816ea-bfd3-4e2f-b390-a8c5e0f11a05"/>
+    <listType typeId="c37b6acb-13d2-422a-aaf0-2f961d2f6e88" valueTypeId="f88c4028-089e-4f69-a5a4-d6993413264e"/>
+    <managerType typeId="67ce1f75-c359-4cc2-99de-fcb781660953" valueTypeId="43b949d3-e106-477d-93cd-bd12545b9c5d"/>
+  </producedTypes>
+  <name>ВКМ_Графики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Графики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_Графики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>График</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Графики</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="bf414e8c-27b4-414a-a6a5-0e74e88d7fbf">
+      <name>КалендарныеДни</name>
+      <description>Календарные дни</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="7dcc8483-19b5-4711-859f-674d72b9c518">
+      <name>Пятидневка</name>
+      <description>Пятидневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="23d481a1-e9d1-4945-b54f-1a4682557c48">
+      <name>Шестидневка</name>
+      <description>Шестидневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

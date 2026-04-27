@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c71d68fc-20c4-4a56-8412-8fe2702f1d64">
+  <name>ВКМ_ОбслуживаниеКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиента</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИконкаНетология</picture>
+  </picture>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Role.ВКМ_Оператор_ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_ТокенТелеграмм</content>
+  <content>Constant.ВКМ_ИдентификаторГруппы</content>
+  <content>Catalog.ВКМ_УведомленияТелеграммБоту</content>
+  <content>InformationRegister.ВКМ_ЛогированиеЧатБотаТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>CommandGroup.ВКМ_Справочники</content>
+  <content>CommandGroup.ВКМ_Документы</content>
+  <content>CommandGroup.ВКМ_Регистры</content>
+  <content>CommandGroup.ВКМ_Прочее</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>AccumulationRegister.ВКМ_ПродажиПоАктам</content>
+  <content>Constant.ВКМ_ОсновнаяОрганизация</content>
+</mdclass:Subsystem>
